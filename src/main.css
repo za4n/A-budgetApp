@@ -1,0 +1,165 @@
+* ,*::after , *::before{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    gap: 0.3em;
+    margin-block: 1rem;
+}
+
+
+
+.budget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .budget-form {
+    width: 100%;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  .budget-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .budget-btn:hover {
+    background-color: #45a049;
+  }
+  .d{
+    width: 80rem;
+    background-color: #5892c5;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0.4em 0.5em;
+  }
+  .d .heading{
+    background-color: #ccc;
+    text-align: center;
+  } 
+  .display{
+    display: flex;
+    gap:1em;
+    flex-direction: column;
+    
+  }
+  .display > *{
+    color: aliceblue;
+    min-height: 5rem;
+  }
+  .main{
+    background-color: #363850;
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+    gap:2em;
+  }
+  .main > .name{
+    flex-grow: 1;
+  }
+  .expenseCard{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    border: 1px solid floralwhite;
+    background-color: #998585;
+  }
+  .main2{
+    padding: 1em 6em;
+    display: flex;
+    gap: 2em;
+
+  }
+  .main2 > .name{
+    flex-grow: 1;
+  }
+  .close{
+    cursor: pointer;
+    background-color: rgb(160, 229, 236);
+    border-radius: 2px;
+    color: black;
+    padding: 0.007em 0.4em;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .recent {
+    background-color: #393838;
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+   align-content: space-around;
+    color: white;
+  }
+  .recent .child{
+    position: relative;
+    display: flex;
+    background-color: #555;
+    padding: 1.4em 0.8em;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .child button{
+    background-color: rgb(185, 163, 163);
+    padding: 0.5em 0.9em;
+    position: absolute;
+    z-index: 99;
+    right: 5%;
+    cursor: pointer;
+
+  }
+  
+  
+  
